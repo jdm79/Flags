@@ -56,16 +56,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="smH-Mu-tnD">
-                                <rect key="frame" x="87" y="170" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="smH-Mu-tnD">
+                                <rect key="frame" x="107" y="121" width="200" height="100"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="3mV-Ip-m4o" firstAttribute="bottom" secondItem="smH-Mu-tnD" secondAttribute="bottom" constant="564" id="IJd-54-TWd"/>
-                            <constraint firstItem="smH-Mu-tnD" firstAttribute="leading" secondItem="3mV-Ip-m4o" secondAttribute="leading" constant="87" id="R2Q-5b-Yuy"/>
-                            <constraint firstItem="smH-Mu-tnD" firstAttribute="top" secondItem="3mV-Ip-m4o" secondAttribute="top" constant="126" id="Wc0-WF-64n"/>
-                            <constraint firstItem="smH-Mu-tnD" firstAttribute="centerX" secondItem="HWg-XU-VFz" secondAttribute="centerX" id="qn8-LW-sXV"/>
+                            <constraint firstItem="smH-Mu-tnD" firstAttribute="top" secondItem="3mV-Ip-m4o" secondAttribute="top" constant="77" id="82M-PC-1aA"/>
+                            <constraint firstItem="smH-Mu-tnD" firstAttribute="centerX" secondItem="HWg-XU-VFz" secondAttribute="centerX" id="Ozn-s6-TeY"/>
+                            <constraint firstItem="smH-Mu-tnD" firstAttribute="leading" secondItem="3mV-Ip-m4o" secondAttribute="leading" constant="107" id="Qkn-31-eHr"/>
+                            <constraint firstItem="3mV-Ip-m4o" firstAttribute="bottom" secondItem="smH-Mu-tnD" secondAttribute="bottom" constant="641" id="anQ-lK-vXZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3mV-Ip-m4o"/>
                     </view>
