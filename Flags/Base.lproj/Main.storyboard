@@ -56,16 +56,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="smH-Mu-tnD">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="estonia" translatesAutoresizingMaskIntoConstraints="NO" id="smH-Mu-tnD">
                                 <rect key="frame" x="107" y="121" width="200" height="100"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="smH-Mu-tnD" firstAttribute="top" secondItem="3mV-Ip-m4o" secondAttribute="top" constant="77" id="82M-PC-1aA"/>
-                            <constraint firstItem="smH-Mu-tnD" firstAttribute="centerX" secondItem="HWg-XU-VFz" secondAttribute="centerX" id="Ozn-s6-TeY"/>
-                            <constraint firstItem="smH-Mu-tnD" firstAttribute="leading" secondItem="3mV-Ip-m4o" secondAttribute="leading" constant="107" id="Qkn-31-eHr"/>
-                            <constraint firstItem="3mV-Ip-m4o" firstAttribute="bottom" secondItem="smH-Mu-tnD" secondAttribute="bottom" constant="641" id="anQ-lK-vXZ"/>
+                            <constraint firstItem="smH-Mu-tnD" firstAttribute="centerX" secondItem="HWg-XU-VFz" secondAttribute="centerX" id="RJx-ui-mUr"/>
+                            <constraint firstItem="smH-Mu-tnD" firstAttribute="top" secondItem="3mV-Ip-m4o" secondAttribute="top" constant="77" id="p0C-m6-Eug"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3mV-Ip-m4o"/>
                     </view>
@@ -96,4 +95,7 @@
             <point key="canvasLocation" x="813.04347826086962" y="-654.24107142857144"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="estonia" width="200" height="100"/>
+    </resources>
 </document>

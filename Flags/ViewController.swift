@@ -24,6 +24,8 @@ class ViewController: UITableViewController {
                 countries.append(item)
                 print(countries)
             }
+            countries.sort()
+
         }
 
     }
