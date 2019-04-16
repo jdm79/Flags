@@ -12,6 +12,19 @@
 		15E8657C2265352E00F59AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E8657A2265352E00F59AC0 /* Main.storyboard */; };
 		15E8657E2265352F00F59AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E8657D2265352F00F59AC0 /* Assets.xcassets */; };
 		15E865812265352F00F59AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E8657F2265352F00F59AC0 /* LaunchScreen.storyboard */; };
+		15E8658922654E4600F59AC0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E8658822654E4600F59AC0 /* DetailViewController.swift */; };
+		15E8658C2265565100F59AC0 /* estonia.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E8658B2265565100F59AC0 /* estonia.png */; };
+		15E8658E2265566B00F59AC0 /* ireland.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E8658D2265566B00F59AC0 /* ireland.png */; };
+		15E86590226557D200F59AC0 /* france.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E8658F226557D200F59AC0 /* france.png */; };
+		15E86592226557E000F59AC0 /* germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E86591226557E000F59AC0 /* germany.png */; };
+		15E86594226557EC00F59AC0 /* italy.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E86593226557EC00F59AC0 /* italy.png */; };
+		15E86596226557F500F59AC0 /* monaco.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E86595226557F500F59AC0 /* monaco.png */; };
+		15E865A12265581000F59AC0 /* poland.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E865A02265581000F59AC0 /* poland.png */; };
+		15E865A32265581E00F59AC0 /* nigeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E865A22265581E00F59AC0 /* nigeria.png */; };
+		15E865A52265582700F59AC0 /* russia.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E865A42265582700F59AC0 /* russia.png */; };
+		15E865A72265583000F59AC0 /* spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E865A62265583000F59AC0 /* spain.png */; };
+		15E865A92265583600F59AC0 /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E865A82265583600F59AC0 /* uk.png */; };
+		15E865AB2265584300F59AC0 /* us.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E865AA2265584300F59AC0 /* us.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		15E8657D2265352F00F59AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15E865802265352F00F59AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15E865822265352F00F59AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E8658822654E4600F59AC0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		15E8658B2265565100F59AC0 /* estonia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = estonia.png; sourceTree = "<group>"; };
+		15E8658D2265566B00F59AC0 /* ireland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ireland.png; sourceTree = "<group>"; };
+		15E8658F226557D200F59AC0 /* france.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = france.png; sourceTree = "<group>"; };
+		15E86591226557E000F59AC0 /* germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = germany.png; sourceTree = "<group>"; };
+		15E86593226557EC00F59AC0 /* italy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = italy.png; sourceTree = "<group>"; };
+		15E86595226557F500F59AC0 /* monaco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monaco.png; sourceTree = "<group>"; };
+		15E865A02265581000F59AC0 /* poland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poland.png; sourceTree = "<group>"; };
+		15E865A22265581E00F59AC0 /* nigeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nigeria.png; sourceTree = "<group>"; };
+		15E865A42265582700F59AC0 /* russia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = russia.png; sourceTree = "<group>"; };
+		15E865A62265583000F59AC0 /* spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spain.png; sourceTree = "<group>"; };
+		15E865A82265583600F59AC0 /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uk.png; sourceTree = "<group>"; };
+		15E865AA2265584300F59AC0 /* us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +82,33 @@
 			children = (
 				15E865762265352E00F59AC0 /* AppDelegate.swift */,
 				15E865782265352E00F59AC0 /* ViewController.swift */,
+				15E8658822654E4600F59AC0 /* DetailViewController.swift */,
 				15E8657A2265352E00F59AC0 /* Main.storyboard */,
 				15E8657D2265352F00F59AC0 /* Assets.xcassets */,
 				15E8657F2265352F00F59AC0 /* LaunchScreen.storyboard */,
 				15E865822265352F00F59AC0 /* Info.plist */,
+				15E8658A2265562800F59AC0 /* Contents */,
 			);
 			path = Flags;
+			sourceTree = "<group>";
+		};
+		15E8658A2265562800F59AC0 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				15E8658B2265565100F59AC0 /* estonia.png */,
+				15E8658F226557D200F59AC0 /* france.png */,
+				15E86591226557E000F59AC0 /* germany.png */,
+				15E8658D2265566B00F59AC0 /* ireland.png */,
+				15E86593226557EC00F59AC0 /* italy.png */,
+				15E86595226557F500F59AC0 /* monaco.png */,
+				15E865A22265581E00F59AC0 /* nigeria.png */,
+				15E865A02265581000F59AC0 /* poland.png */,
+				15E865A42265582700F59AC0 /* russia.png */,
+				15E865A62265583000F59AC0 /* spain.png */,
+				15E865A82265583600F59AC0 /* uk.png */,
+				15E865AA2265584300F59AC0 /* us.png */,
+			);
+			path = Contents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +169,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E865AB2265584300F59AC0 /* us.png in Resources */,
+				15E86590226557D200F59AC0 /* france.png in Resources */,
+				15E865A92265583600F59AC0 /* uk.png in Resources */,
+				15E86592226557E000F59AC0 /* germany.png in Resources */,
 				15E865812265352F00F59AC0 /* LaunchScreen.storyboard in Resources */,
+				15E8658E2265566B00F59AC0 /* ireland.png in Resources */,
+				15E8658C2265565100F59AC0 /* estonia.png in Resources */,
+				15E86596226557F500F59AC0 /* monaco.png in Resources */,
 				15E8657E2265352F00F59AC0 /* Assets.xcassets in Resources */,
 				15E8657C2265352E00F59AC0 /* Main.storyboard in Resources */,
+				15E865A52265582700F59AC0 /* russia.png in Resources */,
+				15E86594226557EC00F59AC0 /* italy.png in Resources */,
+				15E865A72265583000F59AC0 /* spain.png in Resources */,
+				15E865A12265581000F59AC0 /* poland.png in Resources */,
+				15E865A32265581E00F59AC0 /* nigeria.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E8658922654E4600F59AC0 /* DetailViewController.swift in Sources */,
 				15E865792265352E00F59AC0 /* ViewController.swift in Sources */,
 				15E865772265352E00F59AC0 /* AppDelegate.swift in Sources */,
 			);
